@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const apiRoutes = require('./routes/api');
-const errorMiddleware = require('./middleware/error');
+
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use('/imagenes', express.static(path.join(__dirname, 'public/imagenes')));
 app.use('/api', apiRoutes);
-app.use(errorMiddleware);
+
 
 if (process.env.NODE_ENV === 'production') {
   const clientBuildPath = path.join(__dirname, '../app/build');
