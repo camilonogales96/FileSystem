@@ -1,0 +1,5 @@
+[
+    {"nombre": "Juan Perez", "rol": "Fundador y Director", "imagen": "/imagenes/juan.jpg"    },
+    {"nombre": "Abigail Lopez", "rol": "Trabajadora", "imagen": "/imagenes/abigail.jpg"    },
+    {"nombre": "Pedro Sanchez", "rol": "Trabajador", "imagen": "/imagenes/pedro.jpg"    }
+]
