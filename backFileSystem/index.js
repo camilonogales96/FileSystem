@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const apiRoutes = require('./routes/api');
-const errorMiddleware = require('./middleware/errorMiddleware');
+const errorMiddleware = require('./middleware/error');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
