@@ -5,3 +5,5 @@ const {getAbout, getQueHacemos, getIntegrantes} = require('../controllers/infoCo
 router.get('/acerca', getAbout);
 router.get('/hacemos', getQueHacemos);
 router.get('/integrantes', getIntegrantes);
+
+module.exports = router;
